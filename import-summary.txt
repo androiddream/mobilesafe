@@ -1,0 +1,297 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Users/lixinyang/AndroidStudioProjects/untitled folder
+                                               -      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/dictionaries/
+* .idea/dictionaries/hzzhuxingxing.xml
+* .idea/encodings.xml
+* .idea/gradle.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/android_support_v41.xml
+* .idea/libraries/android_support_v42.xml
+* .idea/libraries/android_support_v43.xml
+* .idea/libraries/android_support_v44.xml
+* .idea/libraries/recommendsdk.xml
+* .idea/libraries/recommendsdk1.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ant.properties
+* build.xml
+* mobilesafe.iml
+* out/
+* out/production/
+* out/production/RecommendSDK/
+* out/production/RecommendSDK/com/
+* out/production/RecommendSDK/com/netease/
+* out/production/RecommendSDK/com/netease/sdk/
+* out/production/RecommendSDK/com/netease/sdk/recommend/
+* out/production/RecommendSDK/com/netease/sdk/recommend/BuildConfig.class
+* out/production/RecommendSDK/com/netease/sdk/recommend/R$attr.class
+* out/production/RecommendSDK/com/netease/sdk/recommend/R$drawable.class
+* out/production/RecommendSDK/com/netease/sdk/recommend/R$string.class
+* out/production/RecommendSDK/com/netease/sdk/recommend/R$style.class
+* out/production/RecommendSDK/com/netease/sdk/recommend/R.class
+* out/production/RecommendSDKTest/
+* out/production/RecommendSDKTest/RecommendSDKTest.apk
+* out/production/RecommendSDKTest/RecommendSDKTest.unaligned.apk
+* out/production/RecommendSDKTest/com/
+* out/production/RecommendSDKTest/com/example/
+* out/production/RecommendSDKTest/com/example/recommendsdktest/
+* out/production/RecommendSDKTest/com/example/recommendsdktest/BuildConfig.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/MainActivity.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$attr.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$dimen.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$drawable.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$id.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$layout.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$menu.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$string.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R$style.class
+* out/production/RecommendSDKTest/com/example/recommendsdktest/R.class
+* out/production/RecommendSDKTest/com/netease/
+* out/production/RecommendSDKTest/com/netease/sdk/
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/BuildConfig.class
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/R$drawable.class
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/R$string.class
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/R$style.class
+* out/production/RecommendSDKTest/com/netease/sdk/recommend/R.class
+* out/production/mobilesafe/
+* out/production/mobilesafe/android/
+* out/production/mobilesafe/android/content/
+* out/production/mobilesafe/android/content/pm/
+* out/production/mobilesafe/android/content/pm/IPackageStatsObserver$Stub$Proxy.class
+* out/production/mobilesafe/android/content/pm/IPackageStatsObserver$Stub.class
+* out/production/mobilesafe/android/content/pm/IPackageStatsObserver.aidl
+* out/production/mobilesafe/android/content/pm/IPackageStatsObserver.class
+* out/production/mobilesafe/android/content/pm/PackageStats.aidl
+* out/production/mobilesafe/android/telephony/
+* out/production/mobilesafe/android/telephony/NeighboringCellInfo.aidl
+* out/production/mobilesafe/com/
+* out/production/mobilesafe/com/android/
+* out/production/mobilesafe/com/android/internal/
+* out/production/mobilesafe/com/android/internal/telephony/
+* out/production/mobilesafe/com/android/internal/telephony/ITelephony$Stub$Proxy.class
+* out/production/mobilesafe/com/android/internal/telephony/ITelephony$Stub.class
+* out/production/mobilesafe/com/android/internal/telephony/ITelephony.aidl
+* out/production/mobilesafe/com/android/internal/telephony/ITelephony.class
+* out/production/mobilesafe/com/example/
+* out/production/mobilesafe/com/example/mobilesafe/
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$2$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$3$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity$4.class
+* out/production/mobilesafe/com/example/mobilesafe/AToolsActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/AntiVirusActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AntiVirusActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/AntiVirusActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity$AppLockAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity$ViewHolder.class
+* out/production/mobilesafe/com/example/mobilesafe/AppLockerActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$4.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$AppManagerAdapter$ViewHolder.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity$AppManagerAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/AppManagerActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/BuildConfig.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$4.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$5.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$BlackNumberAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity$ViewHolder.class
+* out/production/mobilesafe/com/example/mobilesafe/CallSafeActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/CleanCacheActivity$1$1.class
+* out/production/mobilesafe/com/example/mobilesafe/CleanCacheActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/CleanCacheActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/CleanCacheActivity$MyObersver.class
+* out/production/mobilesafe/com/example/mobilesafe/CleanCacheActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/CommonNumberActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/CommonNumberActivity$CommonNumberAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/CommonNumberActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/DragViewActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/DragViewActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/EnterPswdActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/EnterPswdActivity$MyConn.class
+* out/production/mobilesafe/com/example/mobilesafe/EnterPswdActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep1Activity.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep2Activity.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep3Activity.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep4Activity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep4Activity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep4Activity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectStep4Activity.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectedActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectedActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectedActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/LostProtectedActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/MainActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/MainActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/MainAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/NumberQueryActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/NumberQueryActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/R$anim.class
+* out/production/mobilesafe/com/example/mobilesafe/R$attr.class
+* out/production/mobilesafe/com/example/mobilesafe/R$drawable.class
+* out/production/mobilesafe/com/example/mobilesafe/R$id.class
+* out/production/mobilesafe/com/example/mobilesafe/R$layout.class
+* out/production/mobilesafe/com/example/mobilesafe/R$menu.class
+* out/production/mobilesafe/com/example/mobilesafe/R$raw.class
+* out/production/mobilesafe/com/example/mobilesafe/R$string.class
+* out/production/mobilesafe/com/example/mobilesafe/R$style.class
+* out/production/mobilesafe/com/example/mobilesafe/R$xml.class
+* out/production/mobilesafe/com/example/mobilesafe/R.class
+* out/production/mobilesafe/com/example/mobilesafe/SelectContactActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/SelectContactActivity$ContactAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/SelectContactActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$4.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$5.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$6.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$7.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity$8.class
+* out/production/mobilesafe/com/example/mobilesafe/SettingCenterActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$3.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$4$1.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$4.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$5.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity$checkUpdate.class
+* out/production/mobilesafe/com/example/mobilesafe/SplashActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity$SystemAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity$UserAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity$ViewHolder.class
+* out/production/mobilesafe/com/example/mobilesafe/TaskManagerActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/TrafficInfoActivity$1.class
+* out/production/mobilesafe/com/example/mobilesafe/TrafficInfoActivity$2.class
+* out/production/mobilesafe/com/example/mobilesafe/TrafficInfoActivity$TrafficAdapter.class
+* out/production/mobilesafe/com/example/mobilesafe/TrafficInfoActivity$ViewHolder.class
+* out/production/mobilesafe/com/example/mobilesafe/TrafficInfoActivity.class
+* out/production/mobilesafe/com/example/mobilesafe/UpdateInfo.class
+* out/production/mobilesafe/com/example/mobilesafe/UpdateInfoParser.class
+* out/production/mobilesafe/com/example/mobilesafe/db/
+* out/production/mobilesafe/com/example/mobilesafe/db/AntiVirusDao.class
+* out/production/mobilesafe/com/example/mobilesafe/db/AppLockDBOpenHelper.class
+* out/production/mobilesafe/com/example/mobilesafe/db/AppLockDao.class
+* out/production/mobilesafe/com/example/mobilesafe/db/BlackNumberDBOpenHelper.class
+* out/production/mobilesafe/com/example/mobilesafe/db/BlackNumberDao.class
+* out/production/mobilesafe/com/example/mobilesafe/db/CommonNumberDao.class
+* out/production/mobilesafe/com/example/mobilesafe/db/NumberAddressDao.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/
+* out/production/mobilesafe/com/example/mobilesafe/engine/AppInfo.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/AppInfoProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/AppLockDBProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/BlackNumber.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/ContactInfo.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/ContactinfoProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/GPSInfoProvider$MyListener.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/GPSInfoProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/IService.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/MyToast.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/ProcessInfo.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/ProcessInfoProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/TrafficInfo.class
+* out/production/mobilesafe/com/example/mobilesafe/engine/TrafficInfoProvider.class
+* out/production/mobilesafe/com/example/mobilesafe/receiver/
+* out/production/mobilesafe/com/example/mobilesafe/receiver/BootCompleteReceiver.class
+* out/production/mobilesafe/com/example/mobilesafe/receiver/CallOutReceiver.class
+* out/production/mobilesafe/com/example/mobilesafe/receiver/MyAdmin.class
+* out/production/mobilesafe/com/example/mobilesafe/receiver/SmsReceiver.class
+* out/production/mobilesafe/com/example/mobilesafe/service/
+* out/production/mobilesafe/com/example/mobilesafe/service/CallFirewallService$1.class
+* out/production/mobilesafe/com/example/mobilesafe/service/CallFirewallService$MyObserver.class
+* out/production/mobilesafe/com/example/mobilesafe/service/CallFirewallService$MyPhoneListener.class
+* out/production/mobilesafe/com/example/mobilesafe/service/CallFirewallService.class
+* out/production/mobilesafe/com/example/mobilesafe/service/ShowCallLocationService$1.class
+* out/production/mobilesafe/com/example/mobilesafe/service/ShowCallLocationService$MyPhoneListener.class
+* out/production/mobilesafe/com/example/mobilesafe/service/ShowCallLocationService.class
+* out/production/mobilesafe/com/example/mobilesafe/service/WatchDogService$1.class
+* out/production/mobilesafe/com/example/mobilesafe/service/WatchDogService$LockScreenReceiver.class
+* out/production/mobilesafe/com/example/mobilesafe/service/WatchDogService$MyBinder.class
+* out/production/mobilesafe/com/example/mobilesafe/service/WatchDogService$MyObserver.class
+* out/production/mobilesafe/com/example/mobilesafe/service/WatchDogService.class
+* out/production/mobilesafe/com/example/mobilesafe/test/
+* out/production/mobilesafe/com/example/mobilesafe/test/TestCreateDB.class
+* out/production/mobilesafe/com/example/utils/
+* out/production/mobilesafe/com/example/utils/AssetUtil.class
+* out/production/mobilesafe/com/example/utils/DensityUtil.class
+* out/production/mobilesafe/com/example/utils/DownLoadUtil.class
+* out/production/mobilesafe/com/example/utils/Md5Encoder.class
+* out/production/mobilesafe/com/example/utils/ServiceStatusUtil.class
+* out/production/mobilesafe/com/example/utils/util.class
+* out/production/mobilesafe/mobilesafe.apk
+* out/production/mobilesafe/mobilesafe.unaligned.apk
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/android/content/pm/IPackageStatsObserver.aidl => app/src/main/aidl/android/content/pm/IPackageStatsObserver.aidl
+* src/android/content/pm/PackageStats.aidl => app/src/main/aidl/android/content/pm/PackageStats.aidl
+* src/android/telephony/NeighboringCellInfo.aidl => app/src/main/aidl/android/telephony/NeighboringCellInfo.aidl
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/android/.DS_Store => app/src/main/resources/com/android/.DS_Store
+* src/com/android/internal/.DS_Store => app/src/main/resources/com/android/internal/.DS_Store
+* src/com/android/internal/telephony/ITelephony.aidl => app/src/main/aidl/com/android/internal/telephony/ITelephony.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
